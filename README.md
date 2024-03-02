@@ -17,10 +17,10 @@ Scoring
 ● The score for the hand is the sum of the score for each word formed.  
 
 ● The score for a word is the product​ of two components:  
-    o First component: the sum of the points for letters in the word.   
-    o Second component: either [7 * word_length - 3 * (n-word_length)] or 1, whichever value is greater, where:     
-    ▪ word_length is the number of letters used in the word   
-    ▪ n is the number of letters available in the current hand   
+    >o First component: the sum of the points for letters in the word.   
+    >o Second component: either [7 * word_length - 3 * (n-word_length)] or 1, whichever value is greater, where:     
+    >▪ word_length is the number of letters used in the word   
+    >▪ n is the number of letters available in the current hand   
 ● Letters are scored as in Scrabble; A is worth 1, B is worth 3, C is worth 3, D is worth   
 2, E is worth 1, and so on. We have defined the dictionary SCRABBLE_LETTER_VALUES
 that maps each lowercase letter to its Scrabble letter value.
