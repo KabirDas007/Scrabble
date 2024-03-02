@@ -1,5 +1,5 @@
 
-### Scrable Description: 
+#### Scrable Description: 
 
 The rules of the game are as follows. 
 Dealing  
