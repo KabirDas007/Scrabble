@@ -11,10 +11,13 @@ Dealing
   using each letter at most once.  
   
 ● Some letters may remain unused, though the size of the hand when a word is played
-  does affect its score.
-Scoring
-● The score for the hand is the sum of the score for each word formed.
-● The score for a word is the product​ of two components:
+  does affect its score.  
+  
+Scoring  
+
+● The score for the hand is the sum of the score for each word formed.  
+
+● The score for a word is the product​ of two components:  
   o First component: the sum of the points for letters in the word.
   o Second component: either [7 * word_length - 3 * (n-word_length)] or 1,
 whichever value is greater, where:
