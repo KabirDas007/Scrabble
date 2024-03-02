@@ -5,7 +5,7 @@ The rules of the game are as follows.
 
 Dealing  
 ● A player is dealt a hand of HAND_SIZE letters of the alphabet, chosen at random.
-  This may include multiple instances of a particular letter.
+  This may include multiple instances of a particular letter.  
 ● The player arranges the hand into as many words as they want out of the letters, but
   using each letter at most once.
 ● Some letters may remain unused, though the size of the hand when a word is played
