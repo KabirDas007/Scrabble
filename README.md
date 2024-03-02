@@ -3,7 +3,7 @@
 
 The rules of the game are as follows. 
 
-Dealing  
+##### Dealing:   
 ● A player is dealt a hand of HAND_SIZE letters of the alphabet, chosen at random.
   This may include multiple instances of a particular letter.  
   
@@ -13,7 +13,7 @@ Dealing
 ● Some letters may remain unused, though the size of the hand when a word is played
   does affect its score.  
   
-Scoring  
+##### Scoring:     
 ● The score for the hand is the sum of the score for each word formed.  
 
 ● The score for a word is the product​ of two components:  
