@@ -26,11 +26,11 @@ We have defined the dictionary SCRABBLE_LETTER_VALUES that maps each lowercase l
 
 ● Examples:  
   &nbsp;&nbsp;&nbsp;o For example, if n=6 and the hand includes 1 'w', 2 'e's, and 1 'd' (as well as
-  &nbsp;&nbsp;&nbsp;two other letters), playing the word 'weed' would be worth 176 points:
-  &nbsp;&nbsp;&nbsp;(4+1+1+2) * (7*4 - 3*(6-4)) = 176. The first term is the sum of the values
-  &nbsp;&nbsp;&nbsp;of each letter used; the second term is the special computation that rewards
-  &nbsp;&nbsp;&nbsp;a player for playing a longer word, and penalizes them for any left over
-  &nbsp;&nbsp;&nbsp;letters.
+  two other letters), playing the word 'weed' would be worth 176 points:
+  (4+1+1+2) * (7*4 - 3*(6-4)) = 176. The first term is the sum of the values
+  of each letter used; the second term is the special computation that rewards
+  a player for playing a longer word, and penalizes them for any left over
+  letters.
   
   o As another example, if n=7, playing the word 'it' would be worth 2 points:
   (1+1) * (1) = 2. The second component is 1 because 7*2 - 3*(7 - 2) = -1,
